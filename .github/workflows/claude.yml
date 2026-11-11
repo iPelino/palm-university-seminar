@@ -32,8 +32,6 @@ jobs:
           fetch-depth: 1
       - uses: anthropics/claude-code-action@v1
         with:
-          # Uses your Claude subscription: run `claude setup-token` and save
-          # the result as the CLAUDE_CODE_OAUTH_TOKEN repository secret.
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           # Stop condition for the loop: cap how many turns one run can take.
           claude_args: "--max-turns 10"
