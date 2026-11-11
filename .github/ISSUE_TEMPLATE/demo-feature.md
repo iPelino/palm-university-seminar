@@ -1,6 +1,6 @@
 ---
-name: Demo feature for @claude
-about: A TCREI-style request the agent can pick up
+name: "Demo 1: students in debt (new feature)"
+about: Adds get_students_in_debt with tests. Click, review the text, submit.
 title: "Add get_students_in_debt"
 labels: []
 ---
