@@ -1,6 +1,5 @@
 """Tuition balance lookup.
 
-This is the correct version of the PR #14 code from the seminar slides:
 - keeps the agreed name get_student_balance
 - reads the database path from PALM_DB_PATH
 - uses a ? placeholder, so user input is never pasted into SQL
